@@ -1,6 +1,6 @@
 # CoderSchool FTW - *Unit Test*
 
-Created with :blue_heart: by <a href="https://github.com/albertanguyen">Anh (Scrum Master)</a>
+Created with :blue_heart: by <a href="https://github.com/albertanguyen">Anh</a>
 
 ## Description
 
