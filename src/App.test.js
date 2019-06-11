@@ -79,3 +79,13 @@ it ('buttons have correct funtionality', () => {
   firstProduct.simulate('click');
   expect(testingFn.mock.calls.length).toEqual(1);
 })
+
+it('matches our snapshot', () => {
+  const wrapper = shallow(
+    <ProductList
+      onProductBuy={testingFn}
+      products={productList}
+    />
+  );
+  expect(wrapper).toMatchSnapshot();
+});
