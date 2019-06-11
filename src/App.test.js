@@ -65,3 +65,17 @@ it('has correct prompt on button', () => {
   const wrapper = shallow(<ProductList products={productList} />)
   wrapper.find('button').forEach(node => expect(node.text()).toBe("Add to Cart"))
 });
+
+const testingFn = jest.fn();
+
+it ('buttons have correct funtionality', () => {
+  const  wrapper = shallow(
+    <ProductList
+      onProductBuy={testingFn}
+      products={productList} 
+    />
+    );
+  const firstProduct = wrapper.find('Button').first();
+  firstProduct.simulate('click');
+  expect(testingFn.mock.calls.length).toEqual(1);
+})

@@ -16,7 +16,8 @@ THE USER CAN do nothing ... This is an internal battle field
 Coder School lecture starts at 10am and ends at 10pm ...
 
 ## Describe any challenges encountered while building the app.
-How to make the App failed...
+* How to make the App failed... and use it to fix to code
+* `find('button')` is not a strict find, test failed, code passed (0-1)
 
 
 ## License
