@@ -6,6 +6,12 @@ Created with :blue_heart: by <a href="https://github.com/albertanguyen">Anh</a>
 
 THE USER IS ABLE TO enjoy their experience hopefully at the end of the day
 
+Several tests introduced (retrived from git log), mainly used enzyme and jest tools:
+* snapshot test
+* Funtion test: check button functionality by using Jestjs
+* check buttons and their content
+* test element's behavior
+
 
 ## Optional User Stories
 
