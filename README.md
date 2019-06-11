@@ -2,10 +2,6 @@
 
 Created with :blue_heart: by <a href="https://github.com/albertanguyen">Anh</a>
 
-## Description
-
-![Gif Walkthrough](github-issue-gif.gif)
-
 ## Required User Stories
 
 THE USER IS ABLE TO enjoy their experience hopefully at the end of the day
@@ -17,7 +13,7 @@ THE USER CAN do nothing ... This is an internal battle field
 
 
 ## Time Spent and Lessons Learned
-Coder School lecture starts at 10am and end at 10pm ...
+Coder School lecture starts at 10am and ends at 10pm ...
 
 ## Describe any challenges encountered while building the app.
 How to make the App failed...
