@@ -11,7 +11,7 @@ const ProductList = (props) => {
                 <li className="product-item" key={product.id}>
                    $ {product.price.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, "$&,")}
                 </li>
-                <Button variant="info" key={product.id}>Info</Button>
+                    <Button variant="info" key={product.id}>Add to Cart</Button>
                 </>
             )
                 ) }  

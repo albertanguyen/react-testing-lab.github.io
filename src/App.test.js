@@ -56,3 +56,12 @@ it('check class name for all nodes', () => {
   wrapper.find('li').forEach(node => expect(node.hasClass('product-item')).toBe(true))
 })
 
+it('check the presence of buttons', () => {
+  const wrapper = shallow(<ProductList products={productList} />);
+  expect(wrapper.find('Button').length).toBe(4)
+});
+
+it('has correct prompt on button', () => {
+  const wrapper = shallow(<ProductList products={productList} />)
+  wrapper.find('button').forEach(node => expect(node.text()).toBe("Add to Cart"))
+});
