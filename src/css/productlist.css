@@ -1,0 +1,8 @@
+.Product-list {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.product-item {
+    list-style-type: none;
+}
